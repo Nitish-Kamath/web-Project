@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex | CSS</title>
+</head>
+<style>
+    body{
+        border: 2px solid red;
+        height: 300px;
+        width: auto;
+    }
+    .container{
+    border: 2px dotted green;
+    display: flex;
+    height: 200px;
+
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items:stretch; */
+
+    /* justify-content: center; */
+    /* justify-content:flex-end; */
+    
+    /* flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+        
+    }
+    .item{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border: 2px solid black;
+        background-color: teal;
+        border-radius: 2px;
+    }
+
+    #item-1{
+        /* align-self: center; */
+        align-self: ;
+    }
+</style>
+<body>
+    <h2>This is Flex Turorial</h2>
+    <div class="container">
+        <div class="item" id="item-1">First box</div>
+        <div class="item" id="item-2">second box</div>
+        <div class="item" id="item-3">third box</div>
+        <div class="item" id="item-4">fourth box</div>
+    </div>
+    
+</body>
+</html>

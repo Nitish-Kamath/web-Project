@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Form</title>
+    <style>
+        .cc {
+            background-color: rgba(98, 98, 179, 0.336);
+
+        }
+
+        .fan {
+            background-color: #698d9678;
+            font-size: larger;
+            color: blue;
+
+        }
+
+        .outer {
+            border: 5px solid black;
+        }
+
+        span {
+            font-size: xx-large;
+            color: darkgreen;
+            margin: 555px;
+        }
+
+        div {
+            color: red
+        }
+
+        header {
+            color: aqua;
+            wi
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="outer">
+
+        <span>
+            Form Fillup</span>
+        <br>
+        <br>
+        <form action="backend.php">
+            <div>
+                <label for="name"> Name:</label>
+                <input type="text" name="Myname" id="name" class="cc" placeholder="Enter your name">
+            </div>
+            <br>
+            <div>
+                <label for="class" nsbp>class:</label>
+                <input type="text" name="Myname" id="class" class="cc" placeholder="Enter your class">
+            </div>
+            <br>
+            <div>
+                <label for="email"> Email:</label>
+                <input type="text" name="Myemail" id="email" class="cc" placeholder="Enter your E-mail ID">
+            </div>
+            <br>
+            <div>
+                <label for="vehicle">media:</label>
+
+                <select name="Mymedia" id="vehicle" class="cc">
+                    <option value="bus" selected>Bus </option>
+                    <option value="mini">Mini van </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Gender:Male <input type="radio" name="Mygender" id="" checked> Female <input type="radio"
+                    name="Mygender" id="">
+                other <input type="radio" name="Mygender" id="">
+
+            </div>
+            <br>
+            <div>
+                Are you sure: <input type="checkbox" name="sure" id="" checked>
+
+            </div>
+            <br>
+            <div>
+                Submit your fantasy: <br><textarea name="Myfantasy" id="" cols="30" rows="10" class="fan"
+                    placeholder="Your Fantasy"></textarea>
+            </div>
+            <br>
+            <div>
+                Submit: <input type="submit" value="Submit Here">
+            </div>
+            <br>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
